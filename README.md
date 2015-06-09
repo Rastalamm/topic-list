@@ -1,7 +1,5 @@
 #What we have learned so far at DevLeague
 
-##General Foundation
-
 ##Arrays and their methods
 Array are groups of data housed within brackets and separated by commas. They can store all kinds of data, functions, objects, other array, numbers strings, booleans etc. Just like strings, each index of the array can be accessed using the zero based index system. Additionally, there are many methods that are automaticlaly built into JS that can be used on Arrays. Be careful! Some of these methods will mutate the original array, while others will just access the values in them.
 
@@ -56,8 +54,15 @@ See great blog post about this here:[Linked Lists: The trains of JS](https://med
 
 
 ##Testing
-TDDD & BDD
+TDD & BDD
 Using Mocha & Chai
 
 ##Advanced Arrays / Functional Programming
 
+
+
+
+Markdown editor Resources:
+https://help.github.com/articles/markdown-basics/
+http://daringfireball.net/projects/markdown/syntax
+http://dillinger.io/
