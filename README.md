@@ -22,7 +22,7 @@ Hoisting is when the JS interpreter moves around your code to the order it shoul
 
 
 ##Strict Mode
-
+You can implement 'strict mode' in your files by invoking a strict mode function at the top of your document. Inside the strict mode function you place the words strict mode in quotes. All of yoru code hsould follow that line within the function. If you stay inside the function your code will be in strict mode. Strict mode will throw silent errors, prevent you from using certain syntax and generally makes it easier to write secure code.
 
 
 ##Using this
@@ -56,6 +56,9 @@ See great blog post about this here:[Linked Lists: The trains of JS](https://med
 ##Testing
 TDD & BDD
 Using Mocha & Chai
+
+
+
 
 ##Advanced Arrays / Functional Programming
 
