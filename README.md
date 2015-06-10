@@ -18,6 +18,7 @@ Hoisting is when the JS interpreter moves around your code to the order it shoul
 
 ##Objects
 In JS everything is an object [Helpful Video](https://www.destroyallsoftware.com/talks/wat). Objects are groups of data that have similar properties. In the real world a hockey stick is an object. It has brand, model, flex, weight, grip and curve properties. In JS you the objects properties are called its keys and store its values. It looks like this:
+```
 var hockeyStick = {
   brand : 'Reebok',
   model : 'Ai9'
@@ -26,7 +27,7 @@ var hockeyStick = {
   grip : true,
   curve : 'Nash'
 }
-
+```
 
 
 ##Strict Mode
