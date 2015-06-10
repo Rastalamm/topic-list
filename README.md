@@ -17,18 +17,20 @@ Hoisting is when the JS interpreter moves around your code to the order it shoul
 
 
 ##Objects
-In JS everything is an object [Helpful Video](https://www.destroyallsoftware.com/talks/wat). Objects are groups of data that have similar properties. In the real world a hockey stick is an object. It has brand, model, flex, weight, grip and curve properties. In JS you the objects properties are called its keys and store its values. It looks like this:
+In JS everything is an object. Objects are groups of data that have similar properties. In the real world a hockey stick is an object. It has brand, model, flex, weight, grip and curve properties. In JS you the objects properties are called its keys and store its values. It looks like this:
 ```
 var hockeyStick = {
   brand : 'Reebok',
-  model : 'Ai9'
+  model : 'Ai9',
   flex : 100,
   weight : 1000,
   grip : true,
   curve : 'Nash'
 }
 ```
+Values of an object can be strings, numbers, booleans, objects, function (AKA methods), truthy and falsey. In order to access the values of an object you should use dot notation or brackets with the key name in quotes.
 
+ Here is a helpful video to get your going [Helpful Video](https://www.destroyallsoftware.com/talks/wat).
 
 ##Strict Mode
 You can implement 'strict mode' in your files by invoking a strict mode function at the top of your document. Inside the strict mode function you place the words strict mode in quotes. All of yoru code hsould follow that line within the function. If you stay inside the function your code will be in strict mode. Strict mode will throw silent errors, prevent you from using certain syntax and generally makes it easier to write secure code.
@@ -38,7 +40,7 @@ You can implement 'strict mode' in your files by invoking a strict mode function
 
 
 ##Module Patterns
-
+Modules patterns can be used if you want to create privacy for variables, functions, or objects and its properties. In order to use mod-pats you create a function and inside that function you return an object. Any methods or variables inside that function are not directly visible/accessible by calling that function. The object that is returned will reference the private variables or methods you declared. On the other hand if you want to leave them private, you don't need to refernce them in the object that is returned.
 
 
 ##Closures
