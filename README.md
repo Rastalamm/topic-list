@@ -44,7 +44,7 @@ Modules patterns can be used if you want to create privacy for variables, functi
 
 
 ##Closures
-Closures are used to 'close off' certain variables/functions to the global scope. Limiting access of the variables to the local scope.
+Closures are used to 'close off' certain variables/functions to the global scope. Limiting access of the variables to the local scope. They are used in module patterns to 'hide' or restrict access to the private variables.
 
 
 ##Linked Lists Data Structures
