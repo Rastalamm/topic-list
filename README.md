@@ -74,6 +74,15 @@ Using Mocha & Chai
 ##Advanced Arrays / Functional Programming
 
 
+##Static Methods and Inheritance
+Mixins
+
+##The DOM
+
+
+##Recursion
+
+
 
 
 Markdown editor Resources:
