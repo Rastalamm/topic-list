@@ -73,6 +73,12 @@ Using Mocha & Chai
 
 ##Advanced Arrays / Functional Programming
 
+foreach
+every
+some
+map
+filter
+reduce
 
 ##Static Methods and Inheritance
 Mixins
