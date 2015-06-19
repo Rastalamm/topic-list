@@ -63,16 +63,31 @@ See great blog post about this here:[Linked Lists: The trains of JS](https://med
 
 ##Call, Apply & Bind
 The call bind and apply methods enable you to use a prototype function of another object with your current object. So if your Person object has a prototype method of walk, you can call/apply/bind the walk method on a new object. You can also use them to force context inside of another function.
-###What's the difference between Call, Bind & Apply?
+####What's the difference between Call, Bind & Apply?
 Call and Apply are nearly the same. They both invoke the function immediately but Call takes a list of arguments while Apply takes an array of arguments.
 Bind calls a function at a later time based on when a certain event occured. Bind works like call in that it takes a list of arguments.
 
 
 ##Testing
-TDD & BDD
-Using Mocha & Chai
+You always want to write tests for your code so as you add code and grow, you can see if any of your new code conflicts with any of the features or functionaly of your old code. If you write your tests first, it forces you to think about how your will use your code prior to writing it. It helps you to understand the overall project and task you are trying to complete.
+
+###TDD & BDD
+TDD stands for Test Driven Development. Think should. Your code should do this.
+BDD stands for Behavior Driven Development. Think expect. Your results are expected to look like this.
+
+Both cycles contain 5 steps.
+1. Start with a list of your requirements
+2. Write a test for one of your requirements. Be specific. The more the merrier
+3. Make sure your tests fail.. wait for it.
+4. Write your code to make it pass!
+5. Refactor (if necessary)
 
 
+####Mocha
+Is one of the many JS testing frameworks. It runs Node on your computer and in your browser. Two main functions when writing your tests. decribe() and it(). describe() groups your test cases into test suites. it() is where you write your individual test cases. Hooks allow you to set up your state before and after functions. You can set it to run before/after each test or before/after only 1 test block.
+
+####Chai
+Chai is an assertion library for node and the brswer that can be paried with ANY JS testing framework. Chai makes the tests read like English. There are words designated as 'chain' words that chain your assertions together so they can be read easily.
 
 
 ##Advanced Arrays / Functional Programming
