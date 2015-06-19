@@ -76,11 +76,11 @@ TDD stands for Test Driven Development. Think should. Your code should do this.
 BDD stands for Behavior Driven Development. Think expect. Your results are expected to look like this.
 
 Both cycles contain 5 steps.
-1. Start with a list of your requirements
-2. Write a test for one of your requirements. Be specific. The more the merrier
-3. Make sure your tests fail.. wait for it.
-4. Write your code to make it pass!
-5. Refactor (if necessary)
+* Start with a list of your requirements
+* Write a test for one of your requirements. Be specific. The more the merrier
+* Make sure your tests fail.. wait for it.
+* Write your code to make it pass!
+* Refactor (if necessary)
 
 
 ####Mocha
@@ -91,13 +91,15 @@ Chai is an assertion library for node and the brswer that can be paried with ANY
 
 
 ##Advanced Arrays / Functional Programming
+The below list of Arrays are called Iterator arrarys. They do just that; loop over the arrays.
 
-foreach
-every
-some
-map
-filter
-reduce
+* forEach(function(c, i, a)) - calls a funciton you provide for each element in the Array
+* every(function(c, i, a)) - returns true if EVERY element in the Array passes the test you provide.
+* some(function(c, i, a)) - returns true if ANY element in the Array passes the test you provide.
+* map(function(c, i, a)) - creates and returns a new array with all the element that pass the TRUE test
+* filter(function(c, i, a)) - creates and returns a new array with all thereturned values from the callback function
+* reduce(function(p, c, i, a)) - returns a single value accumulated against all values from the callback function.
+* reduceRight(function(p, c, i, a)) - its the same as the previously mentioned reduce function but starts from the right side of the input array.
 
 ##Static Methods and Inheritance
 Mixins
