@@ -103,8 +103,15 @@ With functional programming, you just return results, instead of storing data in
 * reduce(function(p, c, i, a)) - returns a single value accumulated against all values from the callback function.
 * reduceRight(function(p, c, i, a)) - its the same as the previously mentioned reduce function but starts from the right side of the input array.
 
-##Static Methods and Inheritance
-Mixins
+##Static Methods
+Static Methods are functions that are built on the class and cannot be extended.
+
+##Inheritance and Interfaces
+Mixins are design patterns that are used to allow multiple inheritance in JS. Essentially you create a class of multiple objects' properties. There is no limit as to the number of other objects' properties we can grab/share from. We don't inherit any consturcotrs in the mixin. Use a mixin if you want to inherit a behavior from multiple objects.
+
+####Interfaces
+Interfaces allow us to define a contract/blueprint. If any object implements an interface, it must provide certain behavior and properties. All in all its just a contract. "if you want to be in the band, you gotta wear the makeup"
+
 
 ##The DOM
 
@@ -125,7 +132,12 @@ Mixins
 ##Typescript
 
 
-Markdown editor Resources:
+
+
+
+
+
+##Markdown editor Resources:
 https://help.github.com/articles/markdown-basics/
 http://daringfireball.net/projects/markdown/syntax
 http://dillinger.io/
