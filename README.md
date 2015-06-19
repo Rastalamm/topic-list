@@ -90,8 +90,10 @@ Is one of the many JS testing frameworks. It runs Node on your computer and in y
 Chai is an assertion library for node and the brswer that can be paried with ANY JS testing framework. Chai makes the tests read like English. There are words designated as 'chain' words that chain your assertions together so they can be read easily.
 
 
-##Advanced Arrays / Functional Programming
-The below list of Arrays are called Iterator arrarys. They do just that; loop over the arrays.
+##Arrays Iteration Methods / Functional Programming
+The below list of Arrays are called Iterator arrarys. They do just that; loop over the arrays. They make up part of the Functional Programming foundation.
+
+With functional programming, you just return results, instead of storing data in variables and continuously accessing the stored data.
 
 * forEach(function(c, i, a)) - calls a funciton you provide for each element in the Array
 * every(function(c, i, a)) - returns true if EVERY element in the Array passes the test you provide.
