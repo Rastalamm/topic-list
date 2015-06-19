@@ -62,6 +62,10 @@ See great blog post about this here:[Linked Lists: The trains of JS](https://med
 
 
 ##Call, Apply & Bind
+The call bind and apply methods enable you to use a prototype function of another object with your current object. So if your Person object has a prototype method of walk, you can call/apply/bind the walk method on a new object. You can also use them to force context inside of another function.
+###What's the difference between Call, Bind & Apply?
+Call and Apply are nearly the same. They both invoke the function immediately but Call takes a list of arguments while Apply takes an array of arguments.
+Bind calls a function at a later time based on when a certain event occured. Bind works like call in that it takes a list of arguments.
 
 
 ##Testing
@@ -92,6 +96,14 @@ Mixins
 
 ##Curry
 
+
+##Callbacks
+
+
+##CSS
+
+
+##Typescript
 
 
 Markdown editor Resources:
