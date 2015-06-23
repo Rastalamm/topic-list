@@ -132,6 +132,16 @@ Interfaces allow us to define a contract/blueprint. If any object implements an 
 ##Typescript
 
 
+##Bubble Sort
+The least efficient way to sort items in an array. Bubble sorting compares two items in an array, and switches their places based on their value. It does this on each iteration and will slowly move the highest values to the right and the smaller values to the left. It take a lot of time and energy to use this method. You can use a loop to compare the first value to the second value and switch there places based on ther value.
+
+##Quick Sort
+Quicksorting is another sorting method that sorts an array by selecting a value to compare against, also known as a pivot value, and partitioning the remaining values to to left and right of the partition value. Using recusion, this is completed until there are no more values to split. On the recusive way up, it concat's the arrays into the sorted value. The keys words are:
+*Pivot - the value you are comparing against to determine the two partitions.
+*Partition- each time a split occurs they end up in two paritions (sections/sides) - left and right.
+*Recursion - For each partition we recursively pass it inside the splitting function, thus generating new pivot, left and right values.
+*Concatenation - Concatenate the left, pivot and right array which outputs a sorted array.
+On every iteration of our quicksort recursion we know that our pivot is greater than all values to the left and less than or equal to the first value on the right.
 
 
 
