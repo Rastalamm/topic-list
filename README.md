@@ -143,7 +143,8 @@ Quicksorting is another sorting method that sorts an array by selecting a value 
 *Concatenation - Concatenate the left, pivot and right array which outputs a sorted array.
 On every iteration of our quicksort recursion we know that our pivot is greater than all values to the left and less than or equal to the first value on the right.
 
-
+##Factory Pattern
+Another design pattern
 
 
 
