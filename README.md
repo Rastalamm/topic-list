@@ -152,6 +152,8 @@ Another design pattern
 
 
 
+##Ajax
+
 
 
 
