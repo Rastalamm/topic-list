@@ -126,9 +126,6 @@ Interfaces allow us to define a contract/blueprint. If any object implements an 
 ##Callbacks
 
 
-##CSS
-
-
 ##Typescript
 
 
@@ -148,7 +145,18 @@ Another design pattern
 
 
 
-##Markdown editor Resources:
+##CSS
+
+
+##SASS / Scss
+
+
+
+
+
+
+
+##Markdown Editor Resources:
 https://help.github.com/articles/markdown-basics/
 http://daringfireball.net/projects/markdown/syntax
 http://dillinger.io/
