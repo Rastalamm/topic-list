@@ -162,9 +162,7 @@ Another design pattern
 
 
 ##Streams
-###fs
-###net
-###buffers
+
 
 
 ##Markdown Editor Resources:
