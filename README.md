@@ -37,7 +37,7 @@ You can implement 'strict mode' in your files by invoking a strict mode function
 
 
 ##Using this
-Whenever a function is invoked, there are always two implicit parameters passed into the function; this and arguments. arguments is an array of the arguments. EX: arguments[0] = the first argument passed in. this refers to the object which the current function is associated or belongs to. AKA the function context
+Whenever a function is invoked, there are always two implicit parameters passed into the function; this and arguments. arguments is an array of the arguments. EX: arguments[0] = the first argument passed in. this refers to the object which the current function is associated or belongs to. AKA the function context. this always always always refers to an instance of an object and a function always belongs to an object. If the function is on the global scope, this will refer to the global object whereas if the function is a method of an object, this refers to the object.
 
 
 ##Module Patterns
@@ -56,7 +56,10 @@ See great blog post about this here:[Linked Lists: The trains of JS](https://med
 
 
 
+
 ##Prototypes and Inheritance
+
+
 
 
 ##OOP in ES5
@@ -115,6 +118,21 @@ Interfaces allow us to define a contract/blueprint. If any object implements an 
 
 
 ##The DOM
+DOM stands for The Document Object Model. It is the interface where we can manipulate the the structre and style of a document. The DOM is an API for interacting with the browser. It is a dynamic, in-memory representation of an HTML document.
+
+###How it works..
+* The browser requests HTML document from the server
+* The file is dowloaded to the browser as plain text
+* The browser parses the HTML text to create the DOM
+
+It is good to note that you cannot change the source file, rather all the changes/mutations are made to the DOM itself. Being a JS dev, most of the changes we want to make are done on the document or window properties (and their children) of the DOM. Anything that is written in HTML/CSS can be done via the DOM and JS. The DOM structure is laid out in a way that all the elements are ancestral in nature and have relation. Meaning, elements can have parents, children siblings and so forth..
+
+###document
+The document represents the HTML elements and Styles/Attributes that are applied to the elements. We can change all aspects of the doucment as needed.
+
+###window
+The window repressents the current browser window as a whole, including current URL, history, screen dimensions etc..
+
 
 
 ##Recursion
