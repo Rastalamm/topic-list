@@ -91,7 +91,7 @@ Both cycles contain 5 steps.
 Is one of the many JS testing frameworks. It runs Node on your computer and in your browser. Two main functions when writing your tests. decribe() and it(). describe() groups your test cases into test suites. it() is where you write your individual test cases. Hooks allow you to set up your state before and after functions. You can set it to run before/after each test or before/after only 1 test block.
 
 ####Chai
-Chai is an assertion library for node and the brswer that can be paried with ANY JS testing framework. Chai makes the tests read like English. There are words designated as 'chain' words that chain your assertions together so they can be read easily.
+Chai is an assertion library for node and the browser that can be paired with ANY JS testing framework. Chai makes the tests read like English. There are words designated as 'chain' words that chain your assertions together so they can be read easily.
 
 
 ##Arrays Iteration Methods / Functional Programming
