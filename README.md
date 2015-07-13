@@ -30,7 +30,7 @@ var hockeyStick = {
 ```
 Values of an object can be strings, numbers, booleans, objects, function (AKA methods), truthy and falsey. In order to access the values of an object you should use dot notation or brackets with the key name in quotes.
 
- Here is a helpful video to get your going [Helpful Video](https://www.destroyallsoftware.com/talks/wat).
+Here is a helpful video to get your going [Helpful Video](https://www.destroyallsoftware.com/talks/wat).
 
 ##Strict Mode
 You can implement 'strict mode' in your files by invoking a strict mode function at the top of your document. Inside the strict mode function you place the words strict mode in quotes. All of yoru code hsould follow that line within the function. If you stay inside the function your code will be in strict mode. Strict mode will throw silent errors, prevent you from using certain syntax and generally makes it easier to write secure code.
@@ -162,6 +162,17 @@ Another design pattern
 
 
 ##Streams
+
+
+
+##Socket Server
+
+
+
+##HTTP Server
+
+##Query String
+
 
 
 
