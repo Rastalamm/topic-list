@@ -149,7 +149,11 @@ Base Case: The most important one and allows you to break out of recursion. It i
 3. Once a function returns, hits the base case, the call stack will unwind and finally exit from it's initial call. Every function call will return during the unwinding.
 
 ##Curry
+Currying is the process of converting a function that accepts multiple arguments, into one that accepts a single argument, by binding some of the arguments into the original function. Why? We want to stay DRY when invoking funcitons that use the same arguments many times. The goal is for each function to take at most one argument. Below are a few ways to implement currying.
 
+1. Manually - Write a function that returns another funciton that accesses the argument of the original function. The original function arguments change the result of the returned function when its invoked.
+2. Using a curry helper - Use a helper function to convert functions into a curried function that accepts a single argument.
+3. Using Lo-Dash Curry Helper - lo-dash's partial() function to convert functions into a curried function that accepts a single argument.
 
 ##Callbacks
 
