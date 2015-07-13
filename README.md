@@ -121,9 +121,9 @@ Interfaces allow us to define a contract/blueprint. If any object implements an 
 DOM stands for The Document Object Model. It is the interface where we can manipulate the the structre and style of a document. The DOM is an API for interacting with the browser. It is a dynamic, in-memory representation of an HTML document.
 
 ###How it works..
-* The browser requests HTML document from the server
-* The file is dowloaded to the browser as plain text
-* The browser parses the HTML text to create the DOM
+1. The browser requests HTML document from the server
+2. The file is dowloaded to the browser as plain text
+3. The browser parses the HTML text to create the DOM
 
 It is good to note that you cannot change the source file, rather all the changes/mutations are made to the DOM itself. Being a JS dev, most of the changes we want to make are done on the document or window properties (and their children) of the DOM. Anything that is written in HTML/CSS can be done via the DOM and JS. The DOM structure is laid out in a way that all the elements are ancestral in nature and have relation. Meaning, elements can have parents, children siblings and so forth..
 
@@ -136,8 +136,17 @@ The window repressents the current browser window as a whole, including current 
 
 
 ##Recursion
+Recursion is the action of a function calling itself inside its scope. Yes. I know.
 
+Why would you use it? - Simple. We use recursion when we have an input structure to our function that can be of infinite dimensions. When out input to our function is going to be similar in type, but differing values repeatedly.
 
+In order to use recusion properly, there are a few key aspects to remember.
+
+Base Case: The most important one and allows you to break out of recursion. It is the point at which the input value stops the funciton from calling itself, in order to "unwind" it's returns.
+
+1. Always define base case so you don't run into an infinite loop
+2. Make sure the input is changing each time you recall your function
+3. Once a function returns, hits the base case, the call stack will unwind and finally exit from it's initial call. Every function call will return during the unwinding.
 
 ##Curry
 
