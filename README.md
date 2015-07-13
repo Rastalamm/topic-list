@@ -37,6 +37,7 @@ You can implement 'strict mode' in your files by invoking a strict mode function
 
 
 ##Using this
+Whenever a function is invoked, there are always two implicit parameters passed into the function; this and arguments. arguments is an array of the arguments. EX: arguments[0] = the first argument passed in. this refers to the object which the current function is associated or belongs to. AKA the function context
 
 
 ##Module Patterns
