@@ -218,6 +218,7 @@ Another design pattern
 
 ###PostgreSQL
 
+[PostgreSQL Data Types](https://medium.com/@Rastalamm/postgres-data-types-f6366cd2e562)
 
 
 
