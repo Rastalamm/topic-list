@@ -163,7 +163,9 @@ Common types of callbacks are setTimeout and setInterval. Callback functions are
 
 
 ##Typescript
-A free, open-sourced programming language developed and maintained by Microsoft. It is a typed superset of JS that complies to plain Javascript everywhere.
+A free, open-sourced programming language developed and maintained by Microsoft. It is a typed superset of JS that complies to plain Javascript everywhere. The two main goals of Typescript are:
+1. to statically identify constructs that are likely to be errors
+2. To provide a structuring mechanism for larger pieces of code.
 
 
 ##Bubble Sort
