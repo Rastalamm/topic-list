@@ -134,7 +134,6 @@ The document represents the HTML elements and Styles/Attributes that are applied
 The window repressents the current browser window as a whole, including current URL, history, screen dimensions etc..
 
 
-
 ##Recursion
 Recursion is the action of a function calling itself inside its scope. Yes. I know.
 
@@ -156,9 +155,15 @@ Currying is the process of converting a function that accepts multiple arguments
 3. Using Lo-Dash Curry Helper - lo-dash's partial() function to convert functions into a curried function that accepts a single argument.
 
 ##Callbacks
+A callback is any function that is passed as a parameter to another function. Function 1 has a parameter that is function 2. A callback is a function that is called when something (usually and event) happens. When the event happens, the callback function is called.
+
+An analogy: You go to the store and ask the person for a box. Instead of waiting around for the box, you go around the store. Once the box is ready, you can get it from the person.
+
+Common types of callbacks are setTimeout and setInterval. Callback functions are asynchronous functions and don't follow along the traditional synchronous top to bottom approach.
 
 
 ##Typescript
+A free, open-sourced programming language developed and maintained by Microsoft. It is a typed superset of JS that complies to plain Javascript everywhere.
 
 
 ##Bubble Sort
