@@ -185,6 +185,14 @@ Another design pattern
 
 
 ##CSS
+CSS stands for Cascading Style Sheets. It is used to define the look, format and layout of HTML elements. CSS is based around Specificity. When giving properties to elements, you need to define which elements are to receive which styles. In certain cases, some elements will have conflicting styles attempting to be apply their property on the element. Specificity defines which style will be applied to the element. The below list is the order of specificity from the most specific (highest) to the least specific (lowest)
+1. Style on HTML element Ex: ``<``div style='...'
+2. ID Ex: #elementID
+3. Class Ex: .elementClass
+4. Tag Ex: div, h1, p
+
+Specificity states that the most specific matching rule will be applied. In order to over ride specificty, you can use the !important tag. It will apply that style to the element. Another unique selector is :pseudo. Pseudo selectors are styles that are applied to elements with a certain state or relation. Ex: hover, clicked, first-child. Lastly, there are certain Vendor Prefixes. Vendor Prefixes came about as certain browsers started implementing support before others so that developers could target their browsers while offering fallbacks for other browsers. Always test your CSS on the browsers you want to support.
+
 
 
 ##SASS / Scss
