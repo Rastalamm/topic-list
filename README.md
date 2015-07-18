@@ -229,6 +229,18 @@ Specificity states that the most specific matching rule will be applied. In orde
 [PostgreSQL Data Types](https://medium.com/@Rastalamm/postgres-data-types-f6366cd2e562)
 
 ## Web Application Framework: Express
+A web application framework is a basic structure that supports the commonalities of the necessary components that make up a web app. They hide the boilerplate and infrastructural code related to handling HTTP requests and responses.
+
+###What is Express?
+Express is a light weight web app framwork that helps organize an MVC architecture on the server side. (MVC stands for Model View Controller). We use Express so we do not have to repeat the same code over and over again.
+
+###Model View Controller
+A way to logically separate the different responsibilites of the application. It also defines the interactions between the three sections. The benefit of using this pattern is that you are separting your app into different sections so they can be managed easier. If everything is in one file/location, it is hard to identify where ceratin actions are happening. Be splitting it up, your code is laid out in an organized fashion.
+
+* Model: How do we represent the data? For example, how do I go from my objects to a persistent storage such as a DB -> how do I save my 'User' object to the database? (Think Database Tables)
+* View: How do I render the result? They get all the information and dynamically generate the HTML representation of the page.
+* Controller: What am I doing? This is the action that's taking place, and what, on a conceptual level, needs to be carried out. For example, what stages do I need to go through to invoice a User? Contains the business logic of the app and operate on the models.
+
 
 ##ORM's
 
