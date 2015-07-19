@@ -193,10 +193,41 @@ CSS stands for Cascading Style Sheets. It is used to define the look, format and
 
 Specificity states that the most specific matching rule will be applied. In order to over ride specificty, you can use the !important tag. It will apply that style to the element. Another unique selector is :pseudo. Pseudo selectors are styles that are applied to elements with a certain state or relation. Ex: hover, clicked, first-child. Lastly, there are certain Vendor Prefixes. Vendor Prefixes came about as certain browsers started implementing support before others so that developers could target their browsers while offering fallbacks for other browsers. Always test your CSS on the browsers you want to support.
 
+When planning a layout you should implement the below:
+1. Good wireframes
+2. Good markup
+3. Think about mobile/ responsive
+4. Style for structure (setting borders/backgrounds)
+5. Style for spacing
+6. Style Type
+7. Style Images
 
+##SASS
+A css compiler. It is just like CSS but adds additional features that are beneficial for when your application/files grow in size. Features such as variables, nesting, mixins, partials and inheritance will make it easier for you to make quick changes and build with ease.
 
-##SASS / Scss
+###Preprocessing
+Your css is written in a .scss file. The markup will be processed out to a regular.css file.
 
+###Variables
+Just like a JS variable, in SASS you can define a variable. An css value can be defined as a varialbe. It is especially useful for values that are the same, but used in many locations (think colors, padding etc..).
+
+###Nesting
+Nesting gives you the ability to write your css in a nested structure; similar to HTML. Helpful to read, but be careful to keep track and maintain your indentation/nesting.
+
+###Partials
+SASS allows you to create partial files that house smaller bits/snippets of css. I place my clearfix and reset files in snippets. You use the @import command at the top of your SASS files to include them.
+
+###Import
+This is the same as using the @import option in CSS but instead of requiring an http request (like in css), SASS will combine it with the file so it's served as a single CSS file in the web browser.
+
+###Mixins
+A mixin allows you to make groups of CSS declarations that you want to reuse throughout your site. Mixins are helpful for vendor prefixes. You can also pass in varaibles to make them dynamic/flexible.
+
+###Extend/Inheritance
+Using an @extend command lets you share a set of CSS properties from one selector to another. Helps keep your code DRY.
+
+###Operators
+Using operators in your scss files allows you to do math in your CSS. Makes converting to percentages easy.
 
 
 ##Ajax
@@ -217,6 +248,7 @@ Specificity states that the most specific matching rule will be applied. In orde
 
 
 ##HTTP Server
+
 
 ##Query String
 
@@ -242,7 +274,7 @@ A way to logically separate the different responsibilites of the application. It
 * Controller: What am I doing? This is the action that's taking place, and what, on a conceptual level, needs to be carried out. For example, what stages do I need to go through to invoice a User? Contains the business logic of the app and operate on the models.
 
 
-##ORM's
+##ORM's : Sequelize
 
 
 ##Markdown Editor Resources:
