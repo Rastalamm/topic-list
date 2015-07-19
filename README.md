@@ -276,6 +276,8 @@ A way to logically separate the different responsibilites of the application. It
 
 ##ORM's : Sequelize
 
+##Template Engine: Jade
+
 
 ##Markdown Editor Resources:
 https://help.github.com/articles/markdown-basics/
