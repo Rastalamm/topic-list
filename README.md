@@ -205,28 +205,28 @@ When planning a layout you should implement the below:
 ##SASS
 A css compiler. It is just like CSS but adds additional features that are beneficial for when your application/files grow in size. Features such as variables, nesting, mixins, partials and inheritance will make it easier for you to make quick changes and build with ease.
 
-###Preprocessing
+####Preprocessing
 Your css is written in a .scss file. The markup will be processed out to a regular.css file.
 
-###Variables
+####Variables
 Just like a JS variable, in SASS you can define a variable. An css value can be defined as a varialbe. It is especially useful for values that are the same, but used in many locations (think colors, padding etc..).
 
-###Nesting
+####Nesting
 Nesting gives you the ability to write your css in a nested structure; similar to HTML. Helpful to read, but be careful to keep track and maintain your indentation/nesting.
 
-###Partials
+####Partials
 SASS allows you to create partial files that house smaller bits/snippets of css. I place my clearfix and reset files in snippets. You use the @import command at the top of your SASS files to include them.
 
-###Import
+####Import
 This is the same as using the @import option in CSS but instead of requiring an http request (like in css), SASS will combine it with the file so it's served as a single CSS file in the web browser.
 
-###Mixins
+####Mixins
 A mixin allows you to make groups of CSS declarations that you want to reuse throughout your site. Mixins are helpful for vendor prefixes. You can also pass in varaibles to make them dynamic/flexible.
 
-###Extend/Inheritance
+####Extend/Inheritance
 Using an @extend command lets you share a set of CSS properties from one selector to another. Helps keep your code DRY.
 
-###Operators
+####Operators
 Using operators in your scss files allows you to do math in your CSS. Makes converting to percentages easy.
 
 
