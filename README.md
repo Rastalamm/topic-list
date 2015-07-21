@@ -295,7 +295,11 @@ A way to logically separate the different responsibilites of the application. It
 
 ##ORM's : Sequelize
 
+
 ##Template Engine: Jade
+
+
+## RESTful API's
 
 
 ##Markdown Editor Resources:
