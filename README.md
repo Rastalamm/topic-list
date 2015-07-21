@@ -233,7 +233,23 @@ Using operators in your scss files allows you to do math in your CSS. Makes conv
 ##Ajax
 Ajax stands for Asynchronous JavaScript and XML. AJAX allows us to transfer information (data) from the web server to the application, and visa versa, without having to refresh the page. We are no longer making XMLHttpRequests; Today they are called HTTP requests. JSON(JavaScript Object Notation) is the primary standard for transferring data via REST API's.
 
-The two primary ways that use AJAX are Native broswer XmlHttpRequest API and JQuery $.ajax()method . The easier and method with more cross compatibity is the jQuery method.
+The two primary ways that use AJAX are Native broswer XmlHttpRequest API and JQuery $.ajax()method . The easier and method with more cross compatibity is the jQuery method. In order to make the request you need to include the following three items:
+1. method - the HTTP request method (GET, POST, PUT, DELETE)
+2. url - the URL to send the request to
+3. dataType- 'json'
+
+Upon sending the request, you need to listen for a response. There are 3 methods to this.
+1. .done() - handle the successful response
+2. .fail() - handle the failure
+3. always() - Always update the UI
+
+With jQuery, you need to make sure you are using the correct implementation/documentation for your version. Below are some additional jQuery methods for you to make a specific request.
+* $.getJSON()
+* $.get()
+* $.post()
+* $.getScript()
+* $.load()
+
 
 ##Node
 
