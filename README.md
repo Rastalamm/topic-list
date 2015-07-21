@@ -231,9 +231,12 @@ Using operators in your scss files allows you to do math in your CSS. Makes conv
 
 
 ##Ajax
+Ajax stands for Asynchronous JavaScript and XML. AJAX allows us to transfer information (data) from the web server to the application, and visa versa, without having to refresh the page. We are no longer making XMLHttpRequests; Today they are called HTTP requests. JSON(JavaScript Object Notation) is the primary standard for transferring data via REST API's.
 
+The two primary ways that use AJAX are Native broswer XmlHttpRequest API and JQuery $.ajax()method . The easier and method with more cross compatibity is the jQuery method.
 
 ##Node
+
 ###Debuggin JS
 ###Events / Emitters
 
