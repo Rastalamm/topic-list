@@ -293,6 +293,17 @@ A way to logically separate the different responsibilites of the application. It
 * Controller: What am I doing? This is the action that's taking place, and what, on a conceptual level, needs to be carried out. For example, what stages do I need to go through to invoice a User? Contains the business logic of the app and operate on the models.
 
 
+###Middleware
+Middleware is a function with access to the request object, the response object and the next middleware in the app's request-response cycle. Middlware can:
+* Execute any code
+* Make changes to the request and the response objects
+* End the request-response cycle
+* Call the next middleware in the stack
+
+There are different kidns of middleware
+
+
+
 ##ORM's : Sequelize
 
 
@@ -300,6 +311,7 @@ A way to logically separate the different responsibilites of the application. It
 
 
 ## RESTful API's
+
 
 
 ##Markdown Editor Resources:
