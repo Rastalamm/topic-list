@@ -294,13 +294,22 @@ A way to logically separate the different responsibilites of the application. It
 
 
 ###Middleware
-Middleware is a function with access to the request object, the response object and the next middleware in the app's request-response cycle. Middlware can:
+Middleware is a function with access to the request object, the response object and the next middleware in the app's request-response cycle. Middleware can:
 * Execute any code
 * Make changes to the request and the response objects
 * End the request-response cycle
 * Call the next middleware in the stack
 
-There are different kidns of middleware
+If the current middleware does not end the request-response cycel, it must call next() to pass control to the next middleware function. If you do not call next() the reqeust will hang.
+
+There are different kinds of middleware
+* Application-level
+* Router-level
+* Error-handling
+* Built-in
+* Third-party
+
+YOu can load application-level and router-level middleware with an optional mount path. You can also load a series of middleware functions together.
 
 
 
