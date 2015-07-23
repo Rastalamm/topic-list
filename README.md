@@ -321,6 +321,26 @@ YOu can load application-level and router-level middleware with an optional moun
 
 ## RESTful API's
 
+##Authentifaction
+
+Authentication - Identify a person
+Authorization - Access to resources
+Basic Auth
+
+local-strategy
+Store user information: username, password
+use a one-way hashing algorithm
+
+use crypto hashes
+blowfish
+
+Sessions
+authenticate w/ username and passowrd
+server stores a key and send you a key in the form of a cookie
+
+
+
+
 
 
 ##Markdown Editor Resources:
