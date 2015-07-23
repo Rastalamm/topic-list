@@ -321,7 +321,7 @@ YOu can load application-level and router-level middleware with an optional moun
 
 ## RESTful API's
 
-##Authentifaction
+##Authentication
 
 Authentication - Identify a person
 Authorization - Access to resources
@@ -333,12 +333,19 @@ use a one-way hashing algorithm
 
 use crypto hashes
 blowfish
+1. its slow, you cannot easily guess, bruteforcing would take infeasble amount of time
+2. one way, is not decryptable
+3. if two hashes are identical, confidence that they are the same message
+4. has collections are mathematically improbable.
 
 Sessions
 authenticate w/ username and passowrd
 server stores a key and send you a key in the form of a cookie
+once you log out the session is ended
 
 
+OpenID is a federated Auth System - have someone else deal with authentication only
+OAuth - delegated auth system - has someone else deal with authorization
 
 
 
