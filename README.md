@@ -347,7 +347,9 @@ once you log out the session is ended
 OpenID is a federated Auth System - have someone else deal with authentication only
 OAuth - delegated auth system - has someone else deal with authorization
 
+##Meteor
 
+##AngularJS
 
 
 ##Markdown Editor Resources:
